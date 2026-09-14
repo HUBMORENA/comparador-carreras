@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Carreras</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+            text-align: center;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 18px;
+            color: #d1d5db;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            width: 300px;
+            padding: 25px;
+            border: none;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .carrera {
+            background-color: #2563eb;
+        }
+
+        .equivalencias {
+            background-color: #7c3aed;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 20px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Comparador de Carreras</h1>
+        <p>Planes de estudio, equivalencias y rutas de graduación</p>
+    </header>
+
+    <main class="contenedor">
+
+        <div class="botones">
+
+            <button class="carrera">
+                DENTRO DE LA CARRERA
+            </button>
+
+            <button class="equivalencias">
+                EQUIVALENCIAS
+            </button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        Proyecto Comparador de Carreras
+    </footer>
+
+</body>
+</html>
